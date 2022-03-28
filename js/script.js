@@ -13,7 +13,7 @@ const searchState = async searchText => {
     }
     states = JSON.parse(ajaxState);
   };
-  myRequest.open("GET", "./data/info.json", false);
+  myRequest.open("GET", "./info.json", false);
   // false means we want to use Sync technique if we make it true then we want Async technique
   myRequest.send();
   
